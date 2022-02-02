@@ -4,7 +4,7 @@
 
 This runs a express webserver that listens for POST requests and forwards it to a Discord channel via a webhook.
 
-Emails are currently sent to the webhook via ImprovMX (because that happens to be what I'm using)
+Emails are currently sent to the webhook via SendGrid's Inbound Parse Webhooks.
 
 ## Prerequisites:
 - NodeJS
